@@ -30,6 +30,11 @@ header nav {
   font-size: 1.25rem;
 }
 
+.nav-link:hover {
+  color: white !important;
+  transform: scale(1.05);
+}
+
 // Main
 
 main {
@@ -44,6 +49,9 @@ main {
   h2 {
     margin: 2rem;
     margin-left: 5rem;
+    color: $secondary-color;
+    font-weight: bold;
+    text-decoration: underline;
   }
 
   .card {
@@ -66,7 +74,7 @@ main {
 footer {
   width: 100vw;
   position: fixed;
-  font-size: 0.5rem;
+  font-size: 0.5rem !important;
   bottom: 0;
   text-align: center;
   padding: 0.4rem;
@@ -93,6 +101,6 @@ footer {
     }
   }
   footer {
-    font-size: 1rem;
+    font-size: 0.75rem !important;
   }
 }
