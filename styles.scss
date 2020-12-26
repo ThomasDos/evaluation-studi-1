@@ -1,0 +1,29 @@
+// Variables
+$primary-color: #ff4c68;
+$secondary-color: #ef8172;
+$main-font-family: "Montserrat", sans-serif;
+
+// App
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-width: 200px;
+}
+
+// Header
+
+header nav {
+  background-color: $primary-color;
+}
+
+header > nav > a,
+header li a {
+  color: white !important;
+}
+
+// Main
+
+// Footer
