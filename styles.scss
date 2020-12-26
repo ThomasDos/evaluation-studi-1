@@ -7,6 +7,7 @@ $main-font-family: "Montserrat", sans-serif;
 * {
   padding: 0;
   margin: 0;
+  font-family: $main-font-family;
 }
 
 body {
@@ -31,4 +32,67 @@ header nav {
 
 // Main
 
+main {
+  margin-bottom: 2.5rem;
+  h1 {
+    text-align: center;
+    margin: 3rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: $primary-color;
+  }
+  h2 {
+    margin: 2rem;
+    margin-left: 5rem;
+  }
+
+  .card {
+    margin: auto;
+    margin-bottom: 2.5rem;
+    width: 18rem;
+    background-color: $primary-color;
+    color: white;
+    border-style: none;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .card-title {
+    font-weight: bold;
+  }
+}
+
 // Footer
+footer {
+  width: 100vw;
+  position: fixed;
+  font-size: 0.5rem;
+  bottom: 0;
+  text-align: center;
+  padding: 0.4rem;
+  background-color: $secondary-color;
+  color: lightgray;
+}
+
+//Media queries
+
+@media (min-width: 376px) {
+  header {
+    nav {
+      .navbar-brand {
+        font-size: 1.8rem;
+      }
+      .nav-link {
+        font-size: 1rem;
+      }
+    }
+  }
+  main {
+    h1 {
+      font-size: 2.5rem;
+    }
+  }
+  footer {
+    font-size: 1rem;
+  }
+}

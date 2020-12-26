@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: "Montserrat", sans-serif;
 }
 
 body {
@@ -20,5 +21,63 @@ header nav .navbar-brand {
 .nav-link {
   color: white !important;
   font-size: 1.25rem;
+}
+
+main {
+  margin-bottom: 2.5rem;
+}
+
+main h1 {
+  text-align: center;
+  margin: 3rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #ff4c68;
+}
+
+main h2 {
+  margin: 2rem;
+  margin-left: 5rem;
+}
+
+main .card {
+  margin: auto;
+  margin-bottom: 2.5rem;
+  width: 18rem;
+  background-color: #ff4c68;
+  color: white;
+  border-style: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+main .card-title {
+  font-weight: bold;
+}
+
+footer {
+  width: 100vw;
+  position: fixed;
+  font-size: 0.5rem;
+  bottom: 0;
+  text-align: center;
+  padding: 0.4rem;
+  background-color: #ef8172;
+  color: lightgray;
+}
+
+@media (min-width: 376px) {
+  header nav .navbar-brand {
+    font-size: 1.8rem;
+  }
+  header nav .nav-link {
+    font-size: 1rem;
+  }
+  main h1 {
+    font-size: 2.5rem;
+  }
+  footer {
+    font-size: 1rem;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
