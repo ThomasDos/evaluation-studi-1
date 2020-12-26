@@ -17,11 +17,16 @@ body {
 
 header nav {
   background-color: $primary-color;
+  .navbar-brand {
+    color: white !important;
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
 }
 
-header > nav > a,
-header li a {
+.nav-link {
   color: white !important;
+  font-size: 1.25rem;
 }
 
 // Main
